@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:wght@400;600&family=Syncopate:wght@700&family=Ubuntu&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 0 1rem 1rem 1rem;
+  max-width: 680px;
+  margin: 0 auto;
+  background: #333;
+  color: #f8f8f8;
+}
+
+li,
+p {
+  line-height: 1.5rem;
+}
+
+a {
+  font-weight: 500;
+  color: #13b63b;
+}
+
+hr {
+  border: 1px solid #ddd;
+}
+
+iframe {
+  background: #ccc;
+  border: 1px solid #ccc;
+  height: 10rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  filter: invert(1);
+}
+
+img{
+  width: 35%;
+  border-radius: 50%;
+}
+
+.centrar{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.centrar2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+button{
+  margin-top: 20px;
+  border: none;
+  color: #13b63b;
+  background: #333;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.saluti{
+  font-size: 25px;
+  font-weight: 800px;
+  font-style: italic;
+}
+
+.mail{
+  margin-top: 25px;
+  font-size: 15px;
+  font-weight: 800px;
+  font-style: italic;
+}
